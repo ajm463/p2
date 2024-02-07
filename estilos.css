@@ -51,7 +51,7 @@ body {
 
 /* Estilos para el contenido principal */
 main {
-    margin-left: 250 px; /* Dejamos espacio para el menú lateral */
+    margin-left: 500 px; /* Dejamos espacio para el menú lateral */
     padding: 20 px;
     box-sizing: border-box; /* Incluimos el padding en el ancho del elemento */
 }
@@ -63,7 +63,7 @@ header {
 }
 
 header h1 {
-    margin: 0;
+    margin: 500 px;
 }
 
 section {
