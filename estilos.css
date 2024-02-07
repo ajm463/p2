@@ -11,22 +11,22 @@ body {
 .sidebar {
     background-color: #007bff;
     color: #fff;
-    width: 250px; /* Ancho del menú lateral */
-    height: 100%; /* Altura completa */
+    width: 250 px; /* Ancho del menú lateral */
+    height: 100 %; /* Altura completa */
     position: fixed; /* Fijamos la posición para que el menú sea siempre visible */
     top: 0;
     left: 0;
-    padding-top: 20px;
+    padding-top: 20 px;
     z-index: 100; /* Aseguramos que el menú esté por encima del contenido principal */
 }
 
 .sidebar .logo {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 20 px;
 }
 
 .sidebar .logo i {
-    font-size: 24px;
+    font-size: 24 px;
 }
 
 .sidebar nav ul {
@@ -35,13 +35,13 @@ body {
 }
 
 .sidebar nav ul li {
-    margin-bottom: 10px;
+    margin-bottom: 10 px;
 }
 
 .sidebar nav ul li a {
     color: #fff;
     text-decoration: none;
-    padding: 10px;
+    padding: 10 px;
     display: block;
 }
 
@@ -51,15 +51,15 @@ body {
 
 /* Estilos para el contenido principal */
 main {
-    margin-left: 250px; /* Dejamos espacio para el menú lateral */
-    padding: 20px;
+    margin-left: 250 px; /* Dejamos espacio para el menú lateral */
+    padding: 20 px;
     box-sizing: border-box; /* Incluimos el padding en el ancho del elemento */
 }
 
 header {
     background-color: #0056b3;
     color: #fff;
-    padding: 20px;
+    padding: 20 px;
 }
 
 header h1 {
@@ -68,15 +68,15 @@ header h1 {
 
 section {
     background-color: #fff;
-    padding: 20px;
-    border-radius: 5px;
+    padding: 20 px;
+    border-radius: 5 px;
 }
 
 /* Estilos para el pie de página */
 footer {
     background-color: #007bff;
     color: #fff;
-    padding: 10px;
+    padding: 10 px;
     text-align: center;
 }
 
