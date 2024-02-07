@@ -3,7 +3,7 @@
 # Práctica 2: Creación de una página web sobre ski
 
 ## Descripción
-En esta práctica, he creado una web sobre el ski. La página web constará de una página principal y tres páginas interiores interconectadas, que proporcionarán información relevante y útil sobre el aki, tales como destinos populares, equipos necesarios y consejos para principiantes.
+En esta práctica, he creado una web sobre el ski. La página web constará de una página principal y tres páginas interiores interconectadas, que proporcionarán información relevante y útil sobre el ski, tales como destinos populares, equipos necesarios y consejos para principiantes.
 
 ## Objetivo
 El objetivo principal de este proyecto es aplicar los conocimientos de HTML y CSS adquiridos en clase para crear una página web atractiva y funcional sobre la temática del esquí. La página web incluirá elementos diversos de HTML, como títulos, párrafos, tablas, multimedia y formularios web.
@@ -12,7 +12,7 @@ El objetivo principal de este proyecto es aplicar los conocimientos de HTML y CS
 La página web contendrá las siguientes secciones:
 
 1. **Página Principal:**
-   - Introducción al esquí
+   - Introducción al ski
    - Imágenes y videos destacados
    - Enlaces a las páginas interiores
 
@@ -21,7 +21,7 @@ La página web contendrá las siguientes secciones:
    - Tabla con detalles de cada destino, como ubicación, elevación y servicios disponibles
 
 3. **Página "Equipamiento":**
-   - Consejos para elegir el equipo adecuado para el esquí
+   - Consejos para elegir el equipo adecuado para el ski
    - Lista de verificación de equipamiento esencial
    - Enlaces a tiendas en línea para comprar equipamiento
 
