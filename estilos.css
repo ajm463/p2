@@ -1,21 +1,27 @@
-/*estilos*/
+/* Estilos */
 
 body {
-    margin: 0; 
-    padding: 0; 
-    display: flex; /* para centrar el contenido */
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center; /* Centra verticalmente */
-    height: 100 vh; /* Ajusta la altura del cuerpo para que ocupe toda la pantalla */
-    background-color: #f0f0f0; 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100 vh;
+    background-color: #f0f0f0;
+}
+
+.container {
+    width: 80 %; /* Ancho del contenedor principal */
+    margin: auto; /* Margen automático para centrar el contenedor */
 }
 
 header {
-    text-align: center; /* Centra el texto del encabezado */
-    width: 90 %;
-    background-color: #ddd; /* Color de fondo opcional */
-    padding: 20 px; /* Añade relleno al encabezado */
+    text-align: center;
+    background-color: #ddd;
+    padding: 20 px;
+    margin-bottom: 20 px; /* Agrega espacio entre el encabezado y el siguiente elemento */
 }
+
 
 
 
