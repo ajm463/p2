@@ -1,58 +1,71 @@
-/* estilos.css */
-
 /* Estilos para el cuerpo de la página */
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
     color: #333;
+    margin: 0; /* Quitamos los márgenes predeterminados */
+    padding: 0; /* Quitamos el relleno predeterminado */
 }
 
-/* Estilos para el encabezado */
-header {
+/* Estilos para el menú lateral */
+.sidebar {
     background-color: #007bff;
     color: #fff;
-    padding: 20 px;
+    width: 250 px; /* Ancho del menú lateral */
+    height: 100 %; /* Altura completa */
+    position: fixed; /* Fijamos la posición para que el menú sea siempre visible */
+    top: 0;
+    left: 0;
+    padding-top: 20 px;
 }
 
-/* Estilos para los enlaces de navegación */
-nav ul {
+.sidebar .logo {
+    text-align: center;
+    margin-bottom: 20 px;
+}
+
+.sidebar .logo i {
+    font-size: 24 px;
+}
+
+.sidebar nav ul {
     list-style-type: none;
-    margin: 0;
     padding: 0;
 }
 
-nav ul li {
-    display: inline;
-    margin-right: 20 px;
+.sidebar nav ul li {
+    margin-bottom: 10 px;
 }
 
-nav ul li a {
+.sidebar nav ul li a {
     color: #fff;
     text-decoration: none;
+    padding: 10 px;
+    display: block;
 }
 
-nav ul li a:hover {
-    text-decoration: underline;
+.sidebar nav ul li a:hover {
+    background-color: #0056b3;
 }
 
-/* Estilos para el contenido */
-section {
-    background-color: #fff;
+/* Estilos para el contenido principal */
+main {
+    margin-left: 250 px; /* Dejamos espacio para el menú lateral */
     padding: 20 px;
 }
 
-section h2 {
-    color: #007bff;
-}
-
-section ul {
-    list-style-type: disc;
-}
-
-/* Estilos para el pie de página */
-footer {
-    background-color: #007bff;
+header {
+    background-color: #0056b3;
     color: #fff;
-    padding: 10 px;
-    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+section {
+    background-color: #fff;
+    padding: 20 px;
+    border-radius: 5 px;
 }
