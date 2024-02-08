@@ -1,5 +1,6 @@
 body {
-    margin: 250px;
+    text-align: center;
+    margin: px;
     padding: 0;
 }
 
@@ -38,7 +39,7 @@ nav ul li a:hover {
 
 main {
     margin-left: 250px; 
-    padding: 20px;
+    padding: 10px;
     box-sizing: border-box; 
 }
 
