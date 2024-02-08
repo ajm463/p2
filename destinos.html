@@ -6,63 +6,12 @@
     <title>Destinos de Esquí</title>
     <link rel="stylesheet" href="estilos.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> <!-- Agregamos la librería de iconos Font Awesome -->
-    <style>
-        body {
-            margin: 250 px;
-            padding: 0;
-        }
-        .sidebar {
-            background-color: #007bff;
-            color: #fff;
-            width: 250 px;
-            position: relative; /* Cambiamos el posicionamiento a relativo */
-            padding-top: 20 px;
-        }
-        .logo {
-            text-align: center;
-            margin-bottom: 20 px;
-        }
-        nav ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        nav ul li {
-            margin-bottom: 10 px;
-        }
-        nav ul li a {
-            color: #fff;
-            text-decoration: none;
-            padding: 10 px;
-            display: block;
-        }
-        nav ul li a:hover {
-            background-color: #0056b3;
-        }
-        main {
-            margin-left: 250 px; /* Deja espacio para el menú lateral */
-            padding: 20 px;
-            box-sizing: border-box; /* Incluye el padding en el ancho total */
-        }
-        header {
-            background-color: #0056b3;
-            color: #fff;
-            padding: 20 px;
-        }
-        header h1 {
-            margin: 0;
-        }
-        section {
-            background-color: #fff;
-            padding: 20 px;
-            border-radius: 5 px;
-        }
-    </style>
 </head>
+    
 <body>
-    <!-- Menú lateral -->
     <aside class="sidebar">
         <div class="logo">
-            <i class="fas fa-skiing"></i> <!-- Icono de esquí -->
+            <i class="fas fa-skiing"></i>
             <span>Destinos de Esquí</span>
         </div>
         <nav>
@@ -74,7 +23,6 @@
         </nav>
     </aside>
 
-    <!-- Contenido principal -->
     <main>
         <header>
             <h1>Destinos de Esquí</h1>
@@ -86,10 +34,26 @@
                 <li><a href="https://www.alta.com/">Alta Ski Area</a> - Utah, Estados Unidos</li>
                 <li><a href="https://www.whistlerblackcomb.com/">Whistler Blackcomb</a> - Columbia Británica, Canadá</li>
                 <li><a href="https://www.stantonamarlberg.com/en">St. Anton am Arlberg</a> - Tirol, Austria</li>
-                <!-- Agrega más destinos aquí -->
             </ul>
         </section>
+        <article> <!-- Algo autocontenido, distribuible, reusable de forma independiente -->
+        <h2>Título del artículo</h2>
+            <section>
+              <h3>Título de una sección dentro del artículo</h3>
+              <p>Contenido de la sección</p>
+            </section>
+            <aside>
+              <h3>Contenido relacionado indirectamente: citas, tabla de contenidos, etc.</h3>
+              <figure>
+                <img alt="Imagen con leyenda" src="img">
+                <figcaption>Leyenda de la imagen</figcaption>
+              </figure>
+            </aside>
+      </article>
     </main>
+<footer>
+  <p>¡Esperamos verte esquiando!</p>
+</footer>
 </body>
 </html>
 
