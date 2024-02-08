@@ -1,36 +1,32 @@
 ### Aurora Junco Miralles 3ºB GITT+BA
 
-# Práctica 2: Creación de una página web sobre ski
+# Práctica 2: Creación de una página web sobre esquí
 
 ## Descripción
-En esta práctica, he creado una web sobre el ski. La página web constará de una página principal y tres páginas interiores interconectadas, que proporcionarán información relevante y útil sobre el ski, tales como destinos populares, equipos necesarios y consejos para principiantes.
+En esta práctica, he creado una web sobre el esquí. La página web constará de una página principal y tres páginas interiores interconectadas, que cuentan un poco sobre el esquí, como destinos populares, equipos necesarios y consejos para principiantes.
 
 ## Objetivo
-El objetivo principal de este proyecto es aplicar los conocimientos de HTML y CSS adquiridos en clase para crear una página web atractiva y funcional sobre la temática del esquí. La página web incluirá elementos diversos de HTML, como títulos, párrafos, tablas, multimedia y formularios web.
+El objetivo principal de este proyecto es aplicar los conocimientos de HTML y CSS adquiridos en clase para crear mi primera página web con cierto formato. La página web incluirá elementos diversos de HTML como títulos, párrafos, multimedia...
 
 ## Contenido
 La página web contendrá las siguientes secciones:
 
 1. **Página Principal:**
-   - Introducción al ski
-   - Imágenes y videos destacados
-   - Enlaces a las páginas interiores
+   - Un poco sobre el esquí
+   - Opción de contactar o buscar en internet qué es el ski
 
 2. **Página "Destinos":**
-   - Información sobre estaciones de esquí populares
-   - Tabla con detalles de cada destino, como ubicación, elevación y servicios disponibles
+   - Algunos de los mejores destinos y sus links
 
 3. **Página "Equipamiento":**
-   - Consejos para elegir el equipo adecuado para el ski
-   - Lista de verificación de equipamiento esencial
-   - Enlaces a tiendas en línea para comprar equipamiento
+   - Qué incluye el equipamiento y cómo ponerse bien las botas (vídeo)
 
 4. **Página "Consejos":**
    - Consejos útiles para principiantes
-   - Consejos de seguridad en las pistas
-   - Formulario de contacto para consultas o comentarios
+  
+Además, todas las páginaS contienen una barra lateral con un índice para que sea más fácil navegar
 
 ## Tecnologías Utilizadas
-- HTML para la estructura y el contenido de la página web.
-- CSS para el diseño y la presentación visual.
-- GitHub Pages para el despliegue del sitio web en línea.
+- HTML para la estructura y el contenido de la página web
+- CSS para el diseño 
+- GitHub Pages para la web en línea
