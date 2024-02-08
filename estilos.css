@@ -13,9 +13,9 @@ body {
     bottom: 0; 
     padding-top: 10px;
 }
-.iframe {
-    width: calc(100% - 200px);
-    height: calc(100% - 200px);
+iframe {
+    width: 100%;
+    height: 100%;
 }
 .logo {
     text-align: center;
