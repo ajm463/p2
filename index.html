@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi web de ski</title>
     <link rel="stylesheet" href="blog.css">
-     <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/blog/">
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/blog/">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
     <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
-
+    
 <body>
-   <div class="container">
+   <aside class="sidebar">
         <header class="border-bottom lh-1 py-3">
           <div class="row flex-nowrap justify-content-between align-items-center">
             <div class="col-4 text-center">
@@ -25,22 +25,35 @@
             </div>
           </div>
         </header>
-    </div>
-    
-    <h1>Página Principal</h1>
-    <p>Bienvenido a la página principal de nuestro sitio web sobre esquí.</p>
-    <p>Explora más:</p>
-
-    <aside>
         <nav id="indice">
-            <h2>Navega</h2>
+            <h4>Navega por nuestra web</h4>
             <ul>
+                <li><a href="#volver"></a></li>
                 <li><a href="destinos.html">Destinos de Esquí</a></li>
                 <li><a href="equipamiento.html">Equipamiento</a></li>
                 <li><a href="consejos.html">Consejos de Esquí</a></li>
             </ul>
         </nav>
+   </aside>
+   <main style="main">
+    <h1>Página Principal</h1>
+    <header class="header">
+        <p>Bienvenido a la página principal de nuestro sitio web sobre esquí.</p>
+    </header>                                                                          
+    <section>
+      <h3>Título de una sección dentro del artículo</h3>
+      <p>Contenido de la sección</p>
+    </section>
+    <aside>
+      <h3>Contenido relacionado indirectamente: citas, tabla de contenidos, etc.</h3>
+      <figure>
+        <iframe style="iframe" src="https://s2.abcstatics.com/abc/www/multimedia/motor/2023/02/17/coche-montana_20230217175018-RR1DgGFkBA9g2C2mvinNFWP-1200x840@abc.jpg" ></iframe>
+        <figcaption>Estás a un paso de empezar tu ruta</figcaption>
+      </figure>
     </aside>
+    <footer>
+        <p id="#volver">Volver arriba</p>
+    </footer>
 </body>
 </html>
 
