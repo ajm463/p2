@@ -1,16 +1,16 @@
 body {
-    text-align: center;
     margin: 0;
     padding: 0;
+    width:100%;
 }
 
 .sidebar {
     background-color: #007bff;
     color: #fff;
-    width: 250px;
-    position: fixed; /* Fijar la barra lateral */
-    top: 0; /* Alinear la barra lateral al inicio del cuerpo */
-    bottom: 0; /* Alinear la barra lateral al final del cuerpo */
+    width: 200px;
+    position: fixed; 
+    top: 0; 
+    bottom: 0; 
     padding-top: 10px;
 }
 
@@ -40,10 +40,10 @@ nav ul li a:hover {
 }
 
 main {
-    margin-left: 250px; /* Añadir margen izquierdo para dejar espacio para la barra lateral */
+    margin-left: 200px; 
     padding: 10px;
     box-sizing: border-box;
-    width: calc(100% - 250px); /* Ancho del contenido principal es el 100% menos el ancho de la barra lateral */
+    width: calc(100% - 200px);
 }
 
 header {
