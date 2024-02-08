@@ -7,8 +7,8 @@ body {
     background-color: #007bff;
     color: #fff;
     width: 250px;
-    position: relative; /* Cambiamos el posicionamiento a relativo */
-    padding-top: 20px;
+    position: relative; 
+    padding-top: 10px;
 }
 
 .logo {
@@ -37,9 +37,9 @@ nav ul li a:hover {
 }
 
 main {
-    margin-left: 250px; /* Deja espacio para el menú lateral */
+    margin-left: 250px; 
     padding: 20px;
-    box-sizing: border-box; /* Incluye el padding en el ancho total */
+    box-sizing: border-box; 
 }
 
 header {
