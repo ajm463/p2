@@ -24,7 +24,7 @@ La página web contendrá las siguientes secciones:
 4. **Página "Consejos":**
    - Consejos útiles para principiantes
   
-Además, todas las páginaS contienen una barra lateral con un índice para que sea más fácil navegar
+Además, todas las páginas contienen una barra lateral con un índice para que sea más fácil navegar
 
 ## Tecnologías Utilizadas
 - HTML para la estructura y el contenido de la página web
