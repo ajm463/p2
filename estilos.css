@@ -5,7 +5,7 @@ body {
 }
 
 .sidebar {
-    background-color: #007bff;
+    background-color: #add8e6;
     color: #fff;
     width: 200px;
     position: fixed; 
@@ -50,7 +50,7 @@ main {
 }
 
 header {
-    background-color: #0056b3;
+    background-color: #004080;
     color: #fff;
     padding: 20px;
 }
