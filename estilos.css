@@ -5,6 +5,7 @@ body {
 }
 
 .sidebar {
+    text-align: center;
     background-color: #add8e6;
     color: #fff;
     width: 16%;
@@ -65,6 +66,7 @@ section {
     border-radius: 1%;
 }
 footer {
+    margin-left: 16%;
     text-align: center;
 }
 
